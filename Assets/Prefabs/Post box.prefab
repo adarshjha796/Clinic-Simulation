@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3225110125687912013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4572969463195278243}
+  - component: {fileID: 2872065012446680187}
+  - component: {fileID: 1928237425635025707}
+  - component: {fileID: 2534494001937891193}
+  - component: {fileID: 6342399495263117755}
+  - component: {fileID: 8336681924804834846}
+  m_Layer: 0
+  m_Name: India_Postbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4572969463195278243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8330853008403607135}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2872065012446680187
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_Mesh: {fileID: 4300000, guid: 2503783e5a88e1a4e9ce7b74535e892f, type: 2}
+--- !u!23 &1928237425635025707
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d976ed51557ba15419a900eb4ef75757, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2534494001937891193
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1679904331744050470, guid: 5838a332f0e4ace4f98567b1b53fbc55, type: 3}
+--- !u!114 &6342399495263117755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4a344429936c44486b3ad2f611c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  responsibleUlod: {fileID: 6778031005810637502}
+  idOfOriginalMeshItemOfThisInResponsibleUlod: 0
+  lastLods:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &8336681924804834846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225110125687912013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60fe6e3ac659854388b967d3a7f25cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoCatchCamera: 0
+  mainCam: {fileID: 0}
+  autoBuildObjects: 1
+  distanceCull: 0
+  distanceToCull: 0
+  prioritizeDistance: 0
+  distanceCullOnly: 0
+--- !u!1 &8707413014524228837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8330853008403607135}
+  - component: {fileID: 6778031005810637502}
+  m_Layer: 0
+  m_Name: Post box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8330853008403607135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707413014524228837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
+  m_Children:
+  - {fileID: 4572969463195278243}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6778031005810637502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707413014524228837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447cf81bd06af284781dfd4985756c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScannedMeshesList:
+  - originalGameObject: {fileID: 3225110125687912013}
+    originalSkinnedMeshRenderer: {fileID: 0}
+    originalMeshFilter: {fileID: 2872065012446680187}
+    originalMeshRenderer: {fileID: 1928237425635025707}
+    allMeshLods:
+    - {fileID: 1679904331744050470, guid: 5838a332f0e4ace4f98567b1b53fbc55, type: 3}
+    - {fileID: 4300000, guid: 612264c554b95f84a8b44d188031cabe, type: 2}
+    - {fileID: 4300000, guid: 2503783e5a88e1a4e9ce7b74535e892f, type: 2}
+    - {fileID: 4300000, guid: c15ae8532e65534489a657f465b96662, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    allMeshLodsPaths:
+    - Assets/Hospital files/Environment models/Post office/Model/Indian-Postbox-lowpoly.obj
+    - Assets/MT Assets/_AssetsData/Meshes/LODs_1/LOD1_637656446908726976.asset
+    - Assets/MT Assets/_AssetsData/Meshes/LODs_2/LOD2_637656446908726976.asset
+    - Assets/MT Assets/_AssetsData/Meshes/LODs_3/LOD3_637656446908726976.asset
+    - 
+    - 
+    - 
+    - 
+    - 
+    canChangeMaterialsOnThisMeshLods: 0
+    allMeshLodsMaterials:
+    - materialArray:
+      - {fileID: 2100000, guid: d976ed51557ba15419a900eb4ef75757, type: 2}
+    - materialArray:
+      - {fileID: 2100000, guid: d976ed51557ba15419a900eb4ef75757, type: 2}
+    - materialArray:
+      - {fileID: 2100000, guid: d976ed51557ba15419a900eb4ef75757, type: 2}
+    - materialArray:
+      - {fileID: 2100000, guid: d976ed51557ba15419a900eb4ef75757, type: 2}
+    - materialArray: []
+    - materialArray: []
+    - materialArray: []
+    - materialArray: []
+    - materialArray: []
+    originalMeshLodsManager: {fileID: 6342399495263117755}
+    beforeCullingData_lastMeshOfThis: {fileID: 1679904331744050470, guid: 5838a332f0e4ace4f98567b1b53fbc55, type: 3}
+    beforeCullingData_isForcedToRenderizationOff: 0
+  modeOfMeshesScanning: 0
+  scanInactiveGameObjects: 1
+  gameObjectsToIgnore: []
+  levelsOfDetailToGenerate: 3
+  percentOfVerticesForEachLod:
+  - 100
+  - 20
+  - 10
+  - 5
+  - 35
+  - 25
+  - 15
+  - 10
+  - 5
+  saveGeneratedLodsInAssets: 1
+  skinnedAnimsCompatibilityMode: 1
+  preventArtifacts: 1
+  optimizeResultingMeshes: 1
+  enableLightmapsSupport: 0
+  enableMaterialsChanges: 0
+  forceOfSimplification: 0
+  cullingMode: 1
+  _customPivotToSimulateLods: {fileID: 0}
+  cameraDetectionMode: 1
+  useCacheForMainCameraInDetection: 1
+  customCameraForSimulationOfLods: {fileID: 0}
+  minDistanceOfViewForEachLod:
+  - 0
+  - 10
+  - 15
+  - 20
+  - 150
+  - 180
+  - 200
+  - 220
+  - 250
+  minDistanceOfViewForCull: 80
+  onDoneScan:
+    m_PersistentCalls:
+      m_Calls: []
+  onUndoScan:
+    m_PersistentCalls:
+      m_Calls: []
+  forceChangeLodsOfSkinnedInEditor: 0
+  drawGizmoOnThisPivot: 0
+  colorOfGizmo: {r: 0, g: 0, b: 1, a: 1}
+  sizeOfGizmo: 0.2
+  forceShowHiddenSettings: 0
+  showScanEventsOptions: 0
+  last_minDistanceOfViewForEachLod:
+  - 0
+  - 10
+  - 15
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  last_minDistanceOfViewForCull: 80
+  setupRunned: 1
+  isLodSimulationEnabledInThisSceneForEditorSceneViewMode: 1

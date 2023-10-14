@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Clinic entrance
+  - NPC
+  - ElevatorUp
+  - ElevatorDown
+  - Elevator
+  - Elevator door
+  - CallElevator
+  - Pharmacy
+  - Reception
+  - Library
+  - Therapy
+  - Teleporter
+  - SecondTeleporter
+  - Talking point
+  - Dog
+  - Talking point receptionist
+  - Sofa
+  - Bull
+  - Vehicle
+  - Library chair
+  - Shelf
+  - Therapist sofa
+  - Therapist lounge
+  - lb_perchTarget
+  - lb_groundTarget
+  - Dachshund dog
+  - Toilet door
+  - Basin
+  - Toilet
+  - Vendor
+  - Toilet Platform
+  - Outdoor NPC
+  - Playing Kids
+  - Chole take point
+  - VendorShopEntry
+  - Stools
+  - Elevator disappear
+  - Receptionist
+  - Fax
+  - Filing cabinet
+  - Receptionist chair
+  - Pharmacy toilet main door
+  - Reception toilet main door
+  - Library toilet main door
+  - Therapy toilet main door
+  - Western toilet
+  - Indian toilet
+  - LibraryPullinTrigger
+  - Urinal
+  - Sitting Trigger
+  - Dog Obstacle
+  - Cart
+  - VendorShopEntry 2
+  - Ball
+  - Batting Trigger
+  - Fielder Trigger
+  - Reception Talking Point
+  - Systems
+  - Vendor Talking Point
+  - Vendor ColdDrink
+  - VendorPlateOn
+  - Talking NPC
+  - TalkingPointNPC
+  - DialogueManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Interact
+  - 
+  - PostProcessing
+  - Not in Reflection
+  - IgnoreCollision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
