@@ -1,9 +1,10 @@
 # Game Title: Clinic Simulation
 
 ## Description
-<p style="font-size: 16px;">This is a Simulation Game where players can interact with AI doctors. Enjoy an Indian Themed environment and find out what surprising interactions we have with our players.</p>
+This is a Simulation Game where players can interact with AI doctors. Enjoy an Indian Themed environment and find out what surprising interactions we have with our players.
 
 ## Key Features
+
 1. **Open World:** We have made an immense  area for you to roam around. We have included indoor and outdoor environments too.
 
 2. **NPC Interactions:** Many NPC interactions including vendors, doctors, and people. 
